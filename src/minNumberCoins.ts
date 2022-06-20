@@ -1,4 +1,4 @@
-export function getMinNumberCoins(s: number, v: number[]) {
+export function minNumberCoins(s: number, v: number[]) {
   const min: { [sum: string]: number } = { 0: 0 };
 
   for (let i = 1; i <= s; i++) {
