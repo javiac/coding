@@ -20,10 +20,7 @@ function g(i: number, donations: number[], includedNeighbours: number[]): number
     if (distance === 1) {
       return g(i - 1, donations, includedNeighbours);
     } else {
-      return Math.max(
-        g(i - 1, donations, includedNeighbours),
-        g(i - 1, donations, [...includedNeighbours, i]) + donations[i],
-      );
+      return Math.max(g(i - 1, donations, includedNeighbours), g(i - 1, donations, [...includedNeighbours, i]) + donations[i]);
     }
   }
 }
