@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test-one": "mocha --timeout 150000 -r ts-node/register test/quicksortTest.ts",
+    "test-one": "mocha --timeout 150000 -r ts-node/register test/kruskalTest.ts",
     "test": "mocha --timeout 150000 -r ts-node/register test/**/*.ts",
     "build": "tsc"
   },
