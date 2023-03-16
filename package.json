@@ -1,23 +1,23 @@
 {
-  "name": "coding",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test-one": "mocha --timeout 150000 -r ts-node/register test/longestWordTest.ts",
-    "test": "mocha --timeout 150000 -r ts-node/register test/**/*.ts",
-    "build": "tsc"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "typescript": "^4.7.3"
-  },
-  "devDependencies": {
-    "@types/chai": "^4.3.1",
-    "@types/mocha": "^9.1.1",
-    "chai": "^4.3.6",
-    "mocha": "^10.0.0",
-    "ts-node": "^10.8.1"
-  }
+    "name": "coding",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test-one": "mocha --timeout 150000 -r ts-node/register test/longestNonRepeatingWordTest.js",
+        "test": "mocha --timeout 150000 -r ts-node/register test/**/*.ts",
+        "build": "tsc"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "typescript": "^4.7.3"
+    },
+    "devDependencies": {
+        "@types/chai": "^4.3.1",
+        "@types/mocha": "^9.1.1",
+        "chai": "^4.3.6",
+        "mocha": "^10.0.0",
+        "ts-node": "^10.8.1"
+    }
 }
